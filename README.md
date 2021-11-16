@@ -1,3 +1,3 @@
-# Microbial eukaryotes: Dievrsity and Evolution
+# Microbial eukaryotes: Diversity and Evolution
 
-This is a lab on metabarcoding for the microbial eukaryote course at Uppsala University. It is created with [bookdown](https://github.com/rstudio/bookdown). 
+This is a lab on **metabarcoding** for the microbial eukaryote course at Uppsala University. It is created with [bookdown](https://github.com/rstudio/bookdown). 
