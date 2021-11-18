@@ -486,6 +486,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
       <nav role="navigation">
 
 <ul class="summary">
+<li class="toc-logo"><a href="./"><img src="images/logo.png" width="150"></a><li>
 <li><a href="./">Lab on Metabarcoding</a></li>
 
 <li class="divider"></li>
@@ -521,6 +522,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="divider"></li>
 <li><a href="https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab" target="blank">GitHub repository</a></li>
+<li><a href="https://creativecommons.org/licenses/by/4.0/" target="blank">© CC-BY 2021</a></li>
 
 </ul>
 
@@ -544,7 +546,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <hr />
 <div id="oceans" class="section level2">
 <h2><span class="header-section-number">5.1</span> Oceans</h2>
-<p>What factors explain the microbial community compositions in different environmental samples? We will now return to our six Tara Ocean stations (coral and non-coral), and quantify the differences in microbial communities between the stations, and cluster them based on their differences. The measure of dissimilarity we will use is Bray-Curtis, which is commonly used in ecology. You do not need to know how it works, however if you are interested in a short, easy to read summary, see <a href="https://www.statisticshowto.datasciencecentral.com/bray-curtis-dissimilarity/">here</a></p>
+<p>What factors explain the microbial community compositions in different environmental samples? We will now return to our six Tara Ocean stations (coral and non-coral), and quantify the differences in microbial communities between the stations, and cluster them based on their differences. The measure of dissimilarity we will use is Bray-Curtis, which is commonly used in ecology. You do not need to know how it works, however if you are interested in a short, easy to read summary, see <a href="https://www.statology.org/bray-curtis-dissimilarity/">here</a></p>
 <p>Importantly, the measure is between 0 and 1. Identical communities would have a Bray-Curtis dissimilarity of 0, while communities which share no species would have a Bray-Curtis dissimilarity of 1.</p>
 <div class="sourceCode" id="cb22"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb22-1"><a href="patterns-of-microbial-community-composition.html#cb22-1"></a><span class="co"># load required package</span></span>
 <span id="cb22-2"><a href="patterns-of-microbial-community-composition.html#cb22-2"></a><span class="kw">library</span>(vegan)</span></code></pre></div>
@@ -579,7 +581,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </div>
 <div id="comparing-oceans-lakes-and-soils" class="section level2">
 <h2><span class="header-section-number">5.2</span> Comparing oceans, lakes, and soils</h2>
-<p>Finally, we are going to zoom out and compare the broad microbial communities from ocean, lake, and soil samples. To get an overview of the communities, we will phylogenetically place the metabarcoding sequences onto a reference phylogeny as we did for <em>Symbiodinium</em> previously. This time however, we will place OTUs on a global eukaryotic phylogeny with 155 annotated, reference 18S sequences (these sequences are derived from the PR2 18S dtaabase) (Figure 8). Note that because this tree is based on 18S sequences only, it is not entirely consistent with what we know from phylogenomics. However, this does not impact phylogenetic placement.</p>
+<p>Finally, we are going to zoom out and compare the broad microbial communities from ocean, lake, and soil samples. To get an overview of the communities, we will phylogenetically place the metabarcoding sequences onto a reference phylogeny as we did for <em>Symbiodinium</em> previously. This time however, we will place OTUs on a global eukaryotic phylogeny with 155 annotated, reference 18S sequences (these sequences are derived from the PR2 18S database) (Figure 8). Note that because this tree is based on 18S sequences only, it is not entirely consistent with what we know from phylogenomics. However, this does not impact phylogenetic placement.</p>
 <div class="figure">
 <img src="images/ref.tre.png" alt="" />
 <p class="caption">Fig 8: Reference 18S phylogeny of eukaryotes with major groups annotated.</p>
@@ -599,7 +601,7 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 <div class="sourceCode" id="cb33"><pre class="sourceCode bash"><code class="sourceCode bash"><span id="cb33-1"><a href="patterns-of-microbial-community-composition.html#cb33-1"></a><span class="co"># freshwater</span></span>
 <span id="cb33-2"><a href="patterns-of-microbial-community-composition.html#cb33-2"></a><span class="fu">cat</span> data/baikal.fasta <span class="kw">|</span> <span class="fu">grep</span> -c <span class="st">&#39;&gt;&#39;</span></span></code></pre></div>
 <pre><code>## 1125</code></pre>
-<p>The phylogenetic placement has already been carried out. Download the placement files from <a href="https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab/tree/master/placement_files">GitHub</a>. To do so, right-click each file and click “save link as”.</p>
+<p>The phylogenetic placement has already been carried out. Download the placement files from <a href="https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab/">GitHub</a>. To do so, first download the GitHub repository as a zip file: i.e. <em>Code</em> (in top-right corner in green) –&gt; <em>Download ZIP</em>. After saving, unzip the folder and navigate to <em>Metabarcoding_lab-master</em> –&gt; <em>placement_files</em>. You will see three files with the extension <em>.jplace</em>.</p>
 <p>Now for the fun part! We will use the interactive <a href="https://itol.embl.de/upload.cgi">Tree of Life website</a> to visualize the difference between these three environments. Simply load each <em>.jplace</em> file (using the button “Choose file”, selecting the file, and click “Upload”). I recommend using three tabs so you can view all files at the same time.</p>
 <p>You will now see a phylogenetic tree and a control panel. Select the following options in the control panel:</p>
 <ul>
@@ -660,7 +662,7 @@ gitbook.start({
 "size": 2
 },
 "edit": {
-"link": "https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab/edit/develop/04-citations.Rmd",
+"link": "https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab/edit/develop/04-patterns.Rmd",
 "text": "Edit"
 },
 "history": {

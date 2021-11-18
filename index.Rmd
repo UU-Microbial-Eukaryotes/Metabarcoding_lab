@@ -19,6 +19,7 @@ link-citations: yes
 github-repo: UU-Microbial-Eukaryotes/Metabarcoding_lab
 ---
 
+
 ```{r setup, include=FALSE}
 # Add a common class name for every chunks
 knitr::opts_chunk$set(
@@ -56,9 +57,10 @@ $(document).ready(function () {
 readr::write_lines(htmlhead, path = "header.html")
 ```
 
+
 # Before you start the lab
 
-This lab will introduce you to metabarcoding. Investigating this "hidden diversity” often relies heavily on bioinformatics. Here, most of the analyses have already been carried out for you, and the focus is on interpreting the results of the analyses. All graphs in this practical have been generated in R. The code is visible for those interested (don't worry if it does not make sense! The goal here is to interpret results) - but you can hide the code by clicking the `Hide` button above each code chunk. There are also a few dropdown boxes in the document tht contain extra information, an example is shown below:
+This lab will introduce you to metabarcoding. Investigating this "hidden diversity” often relies heavily on bioinformatics. Here, most of the analyses have already been carried out for you, and the focus is on interpreting the results of the analyses. All graphs in this practical have been generated in R. The code is visible for those interested (don't worry if it does not make sense! The goal here is to interpret results) - but you can hide the code by clicking the `Hide` button above each code chunk. There are also a few dropdown boxes in the document that contain extra information, an example is shown below:
 
 <details>
 <summary>Dropdown box. Click me to get more information</summary>
@@ -98,6 +100,3 @@ Microbes run the world! Protists and fungi play crucial ecological roles such as
 <br>
 
 Figure 1 shows an overview of the metabarcoding approach. The most commonly used DNA barcode for microbial eukaryotes is the **18S rDNA** gene (though it should be noted that the internal transcribed spacer, ITS, is more commonly used for fungi). In this lab, we will focus on the 18S gene using subsets of published sequencing data from: global marinesampling expeditions such as [Tara Oceans](https://www.science.org/doi/10.1126/science.1261605) and the [Malaspina Expedition](https://www.nature.com/articles/s41396-019-0506-9), [freshwater from Lake Baikal](https://www.mdpi.com/2076-2607/8/4/543), and [soils from Neotropical forests](https://www.nature.com/articles/s41559-017-0091).  
-
-
-

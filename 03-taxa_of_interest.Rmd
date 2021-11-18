@@ -5,7 +5,7 @@ Metabarcoding data can also be used to investigate the biodiversity and ecology 
 
 ## *Symbiodinium*
 
-In this part of the lab, we will focus on one particular genus, *Symbiodinium*, and investigate its distribution across the six stations (coral and open ocean). *Symbiodinium* is a genus of photosynthetic dinoflagellates. These micro-algae, colloquially called "zooxanthellae" are most well-known for being symbionts and the primary producers in reef-building corals. They are thus ecologically and economically important. There has been much research carried out on Symbiodinium biology and ecology in recent yeras in order to understand global coral reef decline.    
+In this part of the lab, we will focus on one particular genus, *Symbiodinium*, and investigate its distribution across the six stations (coral and open ocean). *Symbiodinium* is a genus of photosynthetic dinoflagellates. These micro-algae, colloquially called "zooxanthellae" are most well-known for being symbionts and the primary producers in reef-building corals. They are thus ecologically and economically important. There has been much research carried out on Symbiodinium biology and ecology in recent years in order to understand global coral reef decline.    
 
 
 **Questions:**  
@@ -22,7 +22,7 @@ Column 1 represents the OTU, Column 2 represents % similarity to closest referen
 
 **Questions:**  
 **23. How confident can you be that otu_3007;366 is a *Symbiodinium*? Why?**  
-**24. How confident can you be that otu_539869;1 is a *Symbiodinium*? Why?**  
+**24. How confident can you be that otu_13108;6 is a *Symbiodinium*? Why?**  
 
 To resolve this, we will use the Evolutionary Placement Algorithm to "place" sequences in a reference tree. This is a very useful technique for classifying millions of short environmental reads or OTUs. Figure 7 shows an overview of the process.
 
