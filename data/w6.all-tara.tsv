@@ -1,0 +1,98 @@
+Supergroup	Major_lineage	No_of_OTUs	No_of_reads			
+Excavata	Diplonemida	12325	7883478			
+Excavata	Kinetoplastida	150	342384			
+Excavata	Euglenida	30	8246			
+Excavata	Symbiontida	0	0			
+Excavata	Heterolobosea	25	6556			
+Excavata	Jakobida	1	10099			
+Excavata	Parabasalia	4	51			
+Excavata	Fornicata	1	5			
+Excavata	Preaxostyla	0	0			
+Excavata	Other Excavata	0	0			
+Amoebozoa	Discosea	145	1002688			
+Amoebozoa	Other Lobosa	29	190465			
+Amoebozoa	Tubulinea (without Arcellinida)	18	10116			
+Amoebozoa	Variosea	21	19779			
+Amoebozoa	Myxogastrea	5	3014			
+Amoebozoa	Dictyostelea	0	0			
+Amoebozoa	Archamoebae	4	83			
+Amoebozoa	Arcellinida	0	0			
+Opisthokonta	Metazoa	17010	246962646			
+Opisthokonta	Choanoflagellida	201	646149			
+Opisthokonta	Other Opisthokonta	227	76429			
+Opisthokonta	Mesomycetozoa	75	83885			
+Opisthokonta	Ascomycota	410	1440328			
+Opisthokonta	Basidiomycota	223	2745504			
+Opisthokonta	Chytridiomycota	18	3702			
+Opisthokonta	Entomophthoromycota	12	582			
+Opisthokonta	Microsporidiomycota	9	588			
+Opisthokonta	Other Fungi	65	7167			
+Archaeplastida	Other Archaeplastida	231	53604			
+Archaeplastida	Chlorophyceae	227	11753			
+Archaeplastida	Ulvophyceae	27	1376			
+Archaeplastida	Trebouxiophyceae	140	8822			
+Archaeplastida	Prasinophyceae Clade 7	159	2104607			
+Archaeplastida	Mamiellophyceae	400	733072			
+Archaeplastida	Pyramimonadales	94	125182			
+Archaeplastida	Other Chlorophyta	186	104350			
+Archaeplastida	Streptophyta	103	12982			
+Archaeplastida	Rhodophyta	57	9105			
+Archaeplastida	Glaucocystophyta	3	215			
+Rhizaria	Collodaria	5636	97085064			
+Rhizaria	Nassellaria & Eucyrtidium	383	656961			
+Rhizaria	Spumellaria	586	5199377			
+Rhizaria	RAD-A	139	1294910			
+Rhizaria	RAD-B	253	2784940			
+Rhizaria	RAD-C	57	214401			
+Rhizaria	Other Radiolara	41	121950			
+Rhizaria	Acantharea	1043	2658359			
+Rhizaria	Foraminifera	248	371908			
+Rhizaria	Other Cercozoa	1097	1517263			
+Rhizaria	Phaeodarea	147	286696			
+Rhizaria	Chlorarachnea	74	202288			
+Rhizaria	Euglyphida	13	3741			
+Alveolata	Dinophyceae	24813	69628078			
+Alveolata	MALV-II	5631	11670735			
+Alveolata	MALV-I	2035	17892138			
+Alveolata	MALV-III	182	557884			
+Alveolata	MALV-IV	158	431436			
+Alveolata	MALV-V	22	72967			
+Alveolata	Other Alveolata	1910	3322251			
+Alveolata	Ellobiopsidae	10	11644			
+Alveolata	Perkinsea	27	6067			
+Alveolata	X-cell parasites	0	0			
+Alveolata	Apicomplexa	512	3590126			
+Alveolata	Ciliophora	1963	6245421			
+Stramenopila	Bacillariophyta	3276	14586250			
+Stramenopila	Bolidophyceae & relatives	60	107240			
+Stramenopila	Dictyochophyceae	224	2068358			
+Stramenopila	Pelagophyceae	97	2100247			
+Stramenopila	MOCH-1,2	74	581183			
+Stramenopila	MOCH-4	13	114585			
+Stramenopila	Chrysophyceae / Synurophyceae	203	943987			
+Stramenopila	Phaeophyceae	20	63540			
+Stramenopila	Pinguiophyceae	9	16116			
+Stramenopila	Raphidophyceae	14	4432			
+Stramenopila	MOCH-3	9	29555			
+Stramenopila	MOCH-5	11	94089			
+Stramenopila	MAST-1	114	1727353			
+Stramenopila	Oomycota	71	216048			
+Stramenopila	Pirsonia	13	3989			
+Stramenopila	Labyrinthulea	322	317816			
+Stramenopila	MAST-4,6,7,8,9,10,11	314	2862798			
+Stramenopila	MAST-3,12	536	2807201			
+Stramenopila	Bicoecea	110	491295			
+Stramenopila	MAST-16,22,24	31	46152			
+Stramenopila	Other Stramenopila	338	880878			
+Stramenopila	Other MAST	87	183672			
+Stramenopila	Placididae & others	22	6019			
+Stramenopila	Opalinata	5	177			
+Incertae sedis	Katablepharidophyta	413	944501			
+Incertae sedis	Cryptophyta	192	863773			
+Incertae sedis	Other Hacrobia	72	423448			
+Incertae sedis	Haptophyta	713	4566634			
+Incertae sedis	Telonemia	240	1897627			
+Incertae sedis	Picozoa	123	1039003			
+Incertae sedis	Centroheliozoa	69	89136			
+Incertae sedis	Apusozoa & relatives	36	16178			
+Incertae sedis	Breviatea	0	0			
