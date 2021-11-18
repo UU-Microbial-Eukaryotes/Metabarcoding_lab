@@ -1,6 +1,6 @@
 # Microbial eukaryotes: Diversity and Evolution
 
-This is the repository for the **metabarcoding lab** in the microbial eukaryote course at Uppsala University. It is created with [bookdown](https://github.com/rstudio/bookdown). 
+This is the repository for the **metabarcoding lab** in the microbial eukaryote course at Uppsala University. The instructions are available here: https://uu-microbial-eukaryotes.github.io/Metabarcoding_lab/. It is created with [bookdown](https://github.com/rstudio/bookdown). 
 
 Code-folding is possible thanks to [Stackoverflow user Sébastien Rochette](https://stackoverflow.com/questions/45360998/code-folding-in-bookdown).
 
