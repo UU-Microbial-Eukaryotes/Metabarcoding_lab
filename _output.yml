@@ -1,0 +1,11 @@
+bookdown::gitbook:
+  css: style.css
+  config:
+    toc:
+      before: |
+        <li><a href="./">Lab on Metabarcoding</a></li>
+      after: |
+        <li><a href="https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab" target="blank">GitHub repository</a></li>
+    edit: https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab/edit/develop/%s
+    download: ["pdf", "epub"]
+

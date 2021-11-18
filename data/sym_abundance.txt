@@ -1,0 +1,7 @@
+stations	no_of_reads	total_reads	rel_abundance	env_type
+station_45	195	9777277	0.00199442	open ocean
+station_46	998	15360520	0.006497176	coral
+station_50	43	2742747	0.001567771	open ocean
+station_49	1069	1722440	0.06206312	coral
+station_121	340	2396972	0.014184563	open ocean
+station_126	2699	4930749	0.054738134	coral
