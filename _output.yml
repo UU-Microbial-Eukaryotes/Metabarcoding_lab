@@ -3,9 +3,11 @@ bookdown::gitbook:
   config:
     toc:
       before: |
+        <li class="toc-logo"><a href="./"><img src="images/logo.png" width="150"></a><li>
         <li><a href="./">Lab on Metabarcoding</a></li>
       after: |
         <li><a href="https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab" target="blank">GitHub repository</a></li>
+        <li><a href="https://creativecommons.org/licenses/by/4.0/" target="blank">© CC-BY 2021</a></li>
     edit: https://github.com/UU-Microbial-Eukaryotes/Metabarcoding_lab/edit/develop/%s
     download: ["pdf", "epub"]
 
